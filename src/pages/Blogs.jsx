@@ -35,7 +35,6 @@ const Blogs = () => {
                                     <div
                                         class="bg-primary mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
                                     >
-
                                     </div>
                                     <h4 class="text-dark mb-3 text-xl font-semibold">
                                         Health and Wellness Expos
@@ -68,7 +67,6 @@ const Blogs = () => {
                                     <div
                                         class="bg-pink-400 mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
                                     >
-
                                     </div>
                                     <h4 class="text-dark mb-3 text-xl font-semibold">Fitness Competitions</h4>
                                     <p class="text-body-color">
@@ -123,11 +121,7 @@ const Blogs = () => {
                         </div>
                     </div>
                 </section>
-
-
             </div>
-
-
             <div><Footer></Footer></div>
         </div>
     );
