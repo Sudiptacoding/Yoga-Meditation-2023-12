@@ -6,9 +6,7 @@ const Blogs = () => {
     return (
         <div>
             <div className='bg-black'><Header></Header></div>
-
             <div>
-
                 <section class="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
                     <div class="container mx-auto">
                         <div class="-mx-4 flex flex-wrap">
@@ -54,7 +52,6 @@ const Blogs = () => {
                                     <div
                                         class="bg-purple-500 mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
                                     >
-
                                     </div>
                                     <h4 class="text-dark mb-3 text-xl font-semibold">
                                         Yoga and Meditation Retreats
@@ -86,7 +83,6 @@ const Blogs = () => {
                                     <div
                                         class="bg-primary mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
                                     >
-
                                     </div>
                                     <h4 class="text-dark mb-3 text-xl font-semibold">Holistic Health Fairs</h4>
                                     <p class="text-body-color">
@@ -101,7 +97,6 @@ const Blogs = () => {
                                     <div
                                         class="bg-yellow-500 mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
                                     >
-
                                     </div>
                                     <h4 class="text-dark mb-3 text-xl font-semibold">
                                         Health Tech Conferences
@@ -118,7 +113,6 @@ const Blogs = () => {
                                     <div
                                         class="bg-lime-400 mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
                                     >
-
                                     </div>
                                     <h4 class="text-dark mb-3 text-xl font-semibold">Holistic Retreats</h4>
                                     <p class="text-body-color">
