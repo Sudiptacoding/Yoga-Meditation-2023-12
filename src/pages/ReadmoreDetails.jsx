@@ -4,7 +4,6 @@ import { Link, useParams } from 'react-router-dom';
 const ReadmoreDetails = () => {
     const { id } = useParams();
     const [data, setData] = useState({})
-    console.log(data)
     useEffect(() => {
         fetch('../fakedata.json')
             .then(res => res.json())
@@ -13,8 +12,6 @@ const ReadmoreDetails = () => {
                 setData(findData)
             })
     }, []);
-
-
     return (
         <div className='flex items-center justify-center h-screen p-5 details-bg'>
             <div className="relative flex w-full lg:max-w-[48rem] flex-col lg:flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md ">
