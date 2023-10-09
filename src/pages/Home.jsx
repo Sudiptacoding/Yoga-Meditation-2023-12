@@ -6,9 +6,7 @@ import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
 
 const Home = () => {
-    const { name } = useContext(UserProvider)
     const [data, setData] = useState([])
-
     useEffect(() => {
         fetch('./fakedata.json')
             .then(res => res.json())
@@ -24,7 +22,6 @@ const Home = () => {
                 <div className='flex items-center justify-center py-40'><h1 className='text-4xl text-center text-white header-font'>Join Us for a Journey to Wellness</h1></div>
             </div>
             <div> <Banner></Banner></div>
-
             <div className='py-8 about-bg'>
                 <div className="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5">
                     <h2 className="mb-1 text-3xl font-extrabold leading-tight text-white ">Our Services</h2>
@@ -98,10 +95,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
-            {/* service list */}
-
-
             <div className='footer-bg'>
                 <div><h2 class="mb-1 text-3xl font-extrabold leading-tight text-white text-center header-font pt-6">All Services List</h2></div>
                 <div className='grid grid-cols-1 gap-6 p-10 lg:grid-cols-4 md:grid-cols-2 '>
@@ -126,12 +119,10 @@ const Home = () => {
                                                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                                                             </svg>
                                                         </Link>
-
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
                                     <div
                                         className="px-6 py-1  font-sm border-success text-neutral-600  dark:text-neutral-50">
@@ -147,7 +138,6 @@ const Home = () => {
                     }
                 </div>
             </div>
-
             <div className='py-9'>
                 <h1 className='pb-8 text-2xl text-center header-font'>Docter Service</h1>
                 <div className='lg:px-32'>
@@ -215,9 +205,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
             <Footer></Footer>
-
         </div>
     );
 };
