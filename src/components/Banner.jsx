@@ -1,17 +1,13 @@
 import React, { useEffect, useState } from 'react';
-
 import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
-
 import 'animate.css';
-import { Typewriter } from 'react-simple-typewriter';
 import { Link } from 'react-router-dom';
 
 
 
 const Banner = () => {
     const [data, setData] = useState([])
-
     useEffect(() => {
         fetch('./fakedata.json')
             .then(res => res.json())
@@ -19,13 +15,11 @@ const Banner = () => {
                 setData(data)
             })
     }, []);
-    console.log(data)
 
     const spanStyle = {
         padding: '20px',
         background: '#efefef',
         color: '#000000',
-
     }
 
     const divStyle = {
@@ -35,7 +29,6 @@ const Banner = () => {
         backgroundSize: 'cover',
         height: '60vh',
     }
-
 
     return (
         <div className="slide-container">
@@ -70,8 +63,6 @@ const Banner = () => {
                     </div>
                 ))}
             </Fade>
-
-
         </div>
     );
 };
