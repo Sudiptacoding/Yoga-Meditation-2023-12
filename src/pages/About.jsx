@@ -6,7 +6,6 @@ const About = () => {
     return (
         <div>
             <div className='bg-black'><Header></Header></div>
-
             <div class="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
                 <div class="flex flex-col lg:flex-row justify-between gap-8">
                     <div data-aos="fade-right" class="w-full lg:w-5/12 flex flex-col justify-center">
@@ -17,7 +16,6 @@ const About = () => {
                         <img class="w-full h-full" src="https://i.ibb.co/FhgPJt8/Rectangle-116.png" alt="A group of People" />
                     </div>
                 </div>
-
                 <div class="flex lg:flex-row flex-col justify-between gap-8 pt-12">
                     <div data-aos="fade-right" class="w-full lg:w-5/12 flex flex-col justify-center">
                         <h1 class="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 dark:text-white pb-4">Our Story</h1>
@@ -49,15 +47,12 @@ const About = () => {
                     </div>
                 </div>
             </div>
-
             <div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3144539.2479494684!2d89.08428581531378!3d23.752238779436137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1696788665026!5m2!1sen!2sbd" width="100%" height="450"  ></iframe>
             </div>
-
             <div>
                 <Footer></Footer>
             </div>
-
         </div>
     );
 };
