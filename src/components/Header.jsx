@@ -4,10 +4,7 @@ import { UserProvider } from '../context/Usercontext';
 import swal from 'sweetalert';
 
 const Header = () => {
-
     const { currentUser, firstShow, logOut } = useContext(UserProvider)
-    console.log(firstShow)
-
     const handelLogOut = () => {
         logOut()
             .then(() => {
@@ -16,8 +13,6 @@ const Header = () => {
                 swal("Opps!", "Somethings rong!", "error");
             });
     }
-
-
     const navLink = <>
         <NavLink to='/'
             className={({ isActive, isPending }) =>
@@ -28,8 +23,6 @@ const Header = () => {
                         : "text-white text-lg font-normal px-3 "
             }
         >Home</NavLink>
-
-
         <NavLink to='/about'
             className={({ isActive, isPending }) =>
                 isActive
@@ -39,8 +32,6 @@ const Header = () => {
                         : "px-3 text-white text-lg font-normal"
             }
         >About </NavLink>
-
-
         <NavLink to='/blog'
             className={({ isActive, isPending }) =>
                 isActive
@@ -70,10 +61,7 @@ const Header = () => {
                         {navLink}
                     </ul>
                 </div>
-
-
                 <div className="navbar-end">
-
                     {
                         currentUser ? <div className="dropdown dropdown-end">
                             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
