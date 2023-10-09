@@ -21,7 +21,7 @@ const Registration = () => {
         const photo = e.target.photo.value;
         const email = e.target.email.value;
         const password = e.target.password.value;
-        console.log(password)
+
 
         const isValidCarPassword = /^(?=.*[A-Z]).+$/.test(password);
         const isValidSpacialPassword = /^(?=.*[A-Z])(?=.*[^A-Za-z0-9]).+$/.test(password);
