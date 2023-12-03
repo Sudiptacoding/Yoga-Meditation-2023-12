@@ -15,3 +15,19 @@ Top 5 features and functionalities of my website
 - Our website is fully responsive so you can view it from all devices including laptops and phones
 
 
+Uses Packages
+   - animate.css
+    - firebase
+    - localforage
+    - match-sorter
+    - react
+    - react-dom
+    - react-hot-toast
+    - react-icons
+    - react-router-dom
+    - react-simple-typewriter
+    - react-slideshow-image
+    - sort-by
+    - sweetalert
+
+
