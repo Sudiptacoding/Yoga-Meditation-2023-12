@@ -16,7 +16,7 @@ Top 5 features and functionalities of my website
 
 
 Uses Packages
-    - animate.css
+- animate.css
     - aos
     - firebase
     - localforage
