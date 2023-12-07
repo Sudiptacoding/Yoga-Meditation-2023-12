@@ -1,4 +1,4 @@
-# Assignment 9
+# Yoga and Meditation
 
 Website name
 - Yoga and Meditation
